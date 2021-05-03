@@ -1,0 +1,109 @@
+body{
+    text-align: center;
+    background: linear-gradient(pink 0%,white 100%);
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Girassol', cursive;
+    font-size: 30px;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+#About{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#Welcome{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.line{
+    height: 6px;
+    background-color: darkkhaki;
+    width: 100px;
+    margin: 8px auto;
+}
+p{
+  font-family: 'Indie Flower', cursive;  
+    font-size: 20px;
+}
+.menu{
+    list-style: none;
+    font-family:monospace;
+    top: 10px;
+    right: 30px;
+    cursor: cell;
+    color: cornflowerblue;
+    position: fixed;
+}
+.link{
+    color: crimson;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: cyan;
+}
+#Work p{
+    font-size: 16px;
+}
+#Work{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid grey;
+}
+img:hover{
+    transform:  scale(0.9);
+}
+#Contact{
+    background-color: darksalmon;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#Contact a{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkturquoise;
+}
+li{
+    float: right;
+    border-right: 1px solid red;
+}
+li a{
+    display: block;
+    color: lightpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#Inspiration{
+    background: red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#picture{
+    width: auto;
+    height: 200px;
+    margin: 20px;
+}
